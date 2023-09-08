@@ -55,10 +55,7 @@ def get_last_post_content (id_of_page):
         meta_ai = Facebook_scraper(id_of_page, posts_count, browser, timeout=timeout, headless=headless)
 
         #reading the output of fetching
-        try:
-            json_data = meta_ai.scrap_to_json()
-        except Exception as e:
-            json_data = -1
+        json_data = meta_ai.scrap_to_json()
         #check that it could fetch the page
         if (json_data != -1):
             break #if correct leave the loop
