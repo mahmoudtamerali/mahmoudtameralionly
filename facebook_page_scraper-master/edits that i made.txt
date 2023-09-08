@@ -1,0 +1,27 @@
+i edited
+removed all exit statements only from all codes
+
+
+scraper.py||driver_utilities.py||element_finder.py
+
+scraper.py :
+checked for every call to one of these functions its not -1
+otherwise return -1
+__wait_for_element_to_appear
+__detect_ui
+__accept_cookies
+__find_elements
+
+also check in function __find_elements for the call of functions
+__find_all_posts
+
+
+driver_utilities.py:
+made this function return -1 rather than error
+__wait_for_element_to_appear
+
+element_finder.py
+made these function return -1 rather than error
+__find_all_posts
+__detect_ui
+__accept_cookies
