@@ -15,7 +15,7 @@ num_of_proxies = len(proxies)-1
 
 #the properties of each calls to librarys
 posts_count = 1
-browser = "chrome"#1
+browser = "firefox"#1
 timeout = 210 #210 seconds
 headless = True
 
